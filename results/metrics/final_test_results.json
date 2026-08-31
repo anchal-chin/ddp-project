@@ -1,0 +1,9 @@
+{
+  "final_model": "Model A (baseline)",
+  "validation_accuracy": 0.8907,
+  "validation_macro_f1": 0.8053,
+  "test_accuracy": 0.7339,
+  "test_macro_precision": 0.7007,
+  "test_macro_recall": 0.6857,
+  "test_macro_f1": 0.684
+}

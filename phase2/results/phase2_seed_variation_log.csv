@@ -1,0 +1,5 @@
+seed,epochs_run,best_epoch,best_val_loss,accuracy,macro_precision,macro_recall,macro_f1,class1_f1,class2_f1,class1_recall,class2_recall,notes
+42,17,12,0.2867,0.8907,0.8866,0.8353,0.8053,0.6844,0.0208,,,"Existing Phase 1 baseline run (already in results/metrics/experiment_log.csv); included here for pooling, not retrained"
+7,16,11,0.2884,0.885,0.8209,0.8274,0.7973,0.0187,0.6431,0.0096,0.9579,"New diagnostic run, this notebook"
+123,17,12,0.3279,0.8789,0.8078,0.825,0.7973,0.6689,0.0202,0.9712,0.0105,"New diagnostic run, this notebook"
+2024,14,9,0.3193,0.8874,0.8646,0.8334,0.8169,0.6897,0.1698,0.9615,0.0947,"New diagnostic run, this notebook"

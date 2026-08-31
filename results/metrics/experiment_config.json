@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "loss": "sparse_categorical_crossentropy",
+  "preprocessing": "uint8 [0,255] -> float32 [0,1] (divide by 255); channel dim expanded to (64,64,1); integer class labels (0-10), not one-hot",
+  "validation_protocol": "EarlyStopping(monitor=val_loss, restore_best_weights=True) + ModelCheckpoint(monitor=val_loss, save_best_only=True); test set never used for training or model selection"
+}

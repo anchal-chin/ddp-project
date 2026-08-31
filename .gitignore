@@ -1,0 +1,20 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Dataset (large binary files, provided by professor — not for redistribution)
+*.npy
+
+# Trained model checkpoints (large binaries; keep out of git history)
+models/*.keras
+phase2/models/*.keras
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Claude Code internal state
+.claude/
+
+# OS
+.DS_Store
